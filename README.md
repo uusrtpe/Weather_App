@@ -1,16 +1,22 @@
-# untitled2
+🌤️ Flutter Weather App
+An edge-to-edge, modern Flutter weather app with a glassmorphism UI.
+It uses WeatherAPI to show current conditions, an hourly forecast, and a 3-day summary.
+Tapping the search icon opens a city picker with global search; each card shows the city + live temperature + icon.
 
-A new Flutter project.
+✨ Features
+🎨 Gradient background, frosted glass cards, minimal iOS-style look
 
-## Getting Started
+📍 Tiny arrow next to the city name navigates back to the location page
 
-This project is a starting point for a Flutter application.
+🔎 Global city search (WeatherAPI search.json, 400 ms debounce)
 
-A few resources to get you started if this is your first Flutter project:
+🗂️ City grid: centered name + live temperature & weather icon
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+⏰ “Today” section with hourly chips for 15:00–18:00 (selected state styling)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📆 “Next Forecast” summarizes the following days
+
+🛡️ Edge-to-edge with transparent system bars (Android nav bar won’t appear white)
+
+📸 Screenshots
+<img width="1377" height="396" alt="Ekran Resmi 2025-08-13 19 24 38" src="https://github.com/user-attachments/assets/ee9b8506-17d1-4fad-9a95-572c71e1b124" />
